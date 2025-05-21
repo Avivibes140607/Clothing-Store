@@ -1,0 +1,25 @@
+{
+  "name": "mstoys-app",
+  "version": "1.0.0",
+  "description": "MS Toys E-commerce Application",
+  "main": "start-all.js",
+  "scripts": {
+    "start": "node start-all.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "seed": "cd backend && npm run data:import"
+  },
+  "keywords": [
+    "ecommerce",
+    "mern",
+    "toys",
+    "shop"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
